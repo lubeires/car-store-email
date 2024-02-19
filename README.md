@@ -21,10 +21,3 @@ Dado o escopo global da aplicação, pede-se desenvolver cada subtarefa visando,
 - Os passos acima são um guia, mas não obrigatórios. Podem desenvolver uma lógica diferente, que atenda ao solicitado.
 
 - Podem separar as funcionalidades em arquivos, de acordo com a necessidade que houver.
-  Copilot is ready for this page
-  Summary
-  Copilot
-  gist.githubusercontent.com
-  Ask a follow-up question
-  GPT-3.5
-  GPT-4
