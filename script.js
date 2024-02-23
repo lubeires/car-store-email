@@ -27,7 +27,7 @@ const clients = [
 const today = new Date();
 const isMonday = today.getDay() === 1;
 
-if (!isMonday) {
+if (isMonday) {
   for (const client of clients) {
     if (client.authorizes) {
       const emailContent = createEmailContent(client.name);
