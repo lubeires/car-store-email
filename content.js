@@ -20,4 +20,5 @@ const createEmailContent = (name) => ({
           Estamos à disposição para ajudá-lo(a) a encontrar o carro perfeito para suas necessidades.
   `,
 });
-export default createEmailContent;
+
+module.exports = createEmailContent;

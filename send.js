@@ -37,4 +37,4 @@ const enviarEmail = (addressee, subject, body) => {
   return { status: "Sucess", message: "E-mail enviado com sucesso!" };
 };
 
-export default enviarEmail;
+module.exports = enviarEmail;

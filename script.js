@@ -1,7 +1,5 @@
-import enviarEmail from "./send.mjs";
-import createEmailContent from "./content.mjs";
-
-const sendEmail = enviarEmail;
+const sendEmail = require("./send.js");
+const createEmailContent = require("./content.js");
 
 const clients = [
   {
@@ -21,7 +19,7 @@ const clients = [
   },
   {
     name: "Ana Costa",
-    email: "",
+    email: "ana.costa@example.com",
     authorizes: true,
   },
 ];
@@ -29,7 +27,7 @@ const clients = [
 const today = new Date();
 const isMonday = today.getDay() === 1;
 
-if (isMonday) {
+if (!isMonday) {
   for (const client of clients) {
     if (client.authorizes) {
       const emailContent = createEmailContent(client.name);
